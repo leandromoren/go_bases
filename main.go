@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"github.com/leandromoren/go_bases.git/variables"
 )
 
 func main() {
-	fmt.Println("Hola mundo")
+	variables.MostrarVariablesEnteras()
 }
