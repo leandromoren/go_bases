@@ -1,8 +1,8 @@
 package files
 
 import (
+	"bufio"
 	"fmt"
-	"io/ioutil"
 	"os"
 
 	"github.com/leandromoren/go_bases.git/ejercicios"
@@ -47,10 +47,18 @@ func Append(filen string, texto string) bool {
 }
 
 func LeerArchivo() {
-	archivo, err := ioutil.ReadFile(pathTxt)
+	archivo, err := os.Open(pathTxt)
 	if err != nil {
-		fmt.Println("Hubo error al Leer archivo ", err)
+		fmt.Println("Error al leer archivo ", err)
 		return
 	}
-	fmt.Println(string(archivo))
+
+	scanner := bufio.NewScanner(archivo)
+	var count int = 0
+
+	for scanner.Scan() {
+		registro := scanner.Text()
+		count++
+		fmt.Println(count, "> ", registro)
+	}
 }
