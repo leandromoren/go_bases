@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
+	"github.com/leandromoren/go_bases.git/ejercicios"
 	"github.com/leandromoren/go_bases.git/variables"
 )
 
@@ -21,4 +22,9 @@ func main() {
 	} else {
 		fmt.Println("El sistema operativo es: " + os)
 	}
+
+	numero, texto := ejercicios.EjercicioUno("99")
+	fmt.Println(numero)
+	fmt.Println(texto)
+
 }
