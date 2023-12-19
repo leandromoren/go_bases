@@ -1,17 +1,13 @@
 package main
 
 import (
-	"fmt"
-	"runtime"
-
-	"github.com/leandromoren/go_bases.git/ejercicios"
-	"github.com/leandromoren/go_bases.git/variables"
+	"github.com/leandromoren/go_bases.git/files"
 )
 
 func main() {
 	//variables.MostrarVariablesEnteras()
 	//variables.RestoVariables()
-	estado, texto := variables.ConvierteATexto(50)
+	/*estado, texto := variables.ConvierteATexto(50)
 	fmt.Println(estado, texto)
 
 	//Puedo declarar la variable dentro del condicional
@@ -25,6 +21,10 @@ func main() {
 
 	numero, texto := ejercicios.EjercicioUno("99")
 	fmt.Println(numero)
-	fmt.Println(texto)
+	fmt.Println(texto) */
 
+	//fmt.Println(ejercicios.TablaMultiplicar())
+
+	//files.SumaTabla()
+	files.LeerArchivo()
 }
