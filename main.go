@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/leandromoren/go_bases.git/files"
+	"github.com/leandromoren/go_bases.git/funciones"
 )
 
 func main() {
@@ -26,5 +26,7 @@ func main() {
 	//fmt.Println(ejercicios.TablaMultiplicar())
 
 	//files.SumaTabla()
-	files.LeerArchivo()
+	//files.LeerArchivo()
+
+	funciones.LlamarClosure()
 }
