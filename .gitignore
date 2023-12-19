@@ -1,2 +1,6 @@
 # Archivo ejecutable
 main.exe
+
+#.bat
+#./subo.bat en consola para ejecutar
+subo.bat
