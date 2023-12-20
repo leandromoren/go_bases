@@ -28,5 +28,6 @@ func main() {
 	//files.SumaTabla()
 	//files.LeerArchivo()
 
-	funciones.LlamarClosure()
+	//funciones.LlamarClosure()
+	funciones.Exponencia(2)
 }
