@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/leandromoren/go_bases.git/funciones"
+	"github.com/leandromoren/go_bases.git/mapas"
 )
 
 func main() {
@@ -29,5 +29,7 @@ func main() {
 	//files.LeerArchivo()
 
 	//funciones.LlamarClosure()
-	funciones.Exponencia(2)
+	//funciones.Exponencia(2)
+	//arreglos_slices.MuestroArreglos()
+	mapas.MostrarMapas()
 }
