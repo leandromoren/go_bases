@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/leandromoren/go_bases.git/mapas"
+	"github.com/leandromoren/go_bases.git/users"
 )
 
 func main() {
@@ -31,5 +31,6 @@ func main() {
 	//funciones.LlamarClosure()
 	//funciones.Exponencia(2)
 	//arreglos_slices.MuestroArreglos()
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+	users.AltaUsuario()
 }
