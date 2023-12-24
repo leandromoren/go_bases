@@ -11,5 +11,5 @@ func AltaUsuario() {
 	// Objeto
 	u := new(modelos.User)
 	u.AddUser(10, "Leandro", time.Now(), true)
-	fmt.Println(u)
+	fmt.Println("Usuario: ", u)
 }
