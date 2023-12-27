@@ -1,8 +1,7 @@
 package main
 
 import (
-	e "github.com/leandromoren/go_bases.git/ej_interfaces"
-	"github.com/leandromoren/go_bases.git/modelos"
+	defer_panic "github.com/leandromoren/go_bases.git/defer"
 )
 
 func main() {
@@ -35,6 +34,7 @@ func main() {
 	//mapas.MostrarMapas()
 	//users.AltaUsuario()
 
-	Pedro := new(modelos.Hombre)
-	e.HumanosRespirando(Pedro)
+	// Pedro := new(modelos.Hombre)
+	// e.HumanosRespirando(Pedro)
+	defer_panic.EjemploPanic()
 }
