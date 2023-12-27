@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/leandromoren/go_bases.git/webserver"
+	"github.com/leandromoren/go_bases.git/middleware"
 )
 
 func main() {
@@ -44,5 +44,7 @@ func main() {
 	// var x string
 	// fmt.Scanln(&x)
 
-	webserver.MiWebServer()
+	//webserver.MiWebServer()
+
+	middleware.MiMiddleware()
 }
