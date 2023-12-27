@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/leandromoren/go_bases.git/users"
+	e "github.com/leandromoren/go_bases.git/ej_interfaces"
+	"github.com/leandromoren/go_bases.git/modelos"
 )
 
 func main() {
@@ -32,5 +33,8 @@ func main() {
 	//funciones.Exponencia(2)
 	//arreglos_slices.MuestroArreglos()
 	//mapas.MostrarMapas()
-	users.AltaUsuario()
+	//users.AltaUsuario()
+
+	Pedro := new(modelos.Hombre)
+	e.HumanosRespirando(Pedro)
 }
