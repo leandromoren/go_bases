@@ -1,7 +1,7 @@
 package main
 
 import (
-	defer_panic "github.com/leandromoren/go_bases.git/defer"
+	"github.com/leandromoren/go_bases.git/webserver"
 )
 
 func main() {
@@ -36,5 +36,13 @@ func main() {
 
 	// Pedro := new(modelos.Hombre)
 	// e.HumanosRespirando(Pedro)
-	defer_panic.EjemploPanic()
+	//defer_panic.EjemploPanic()
+
+	// Rutina asincrona con la palabra <go>
+	// go goroutines.MiNombreLento("Leandro Moren")
+	// fmt.Println("Estot aca")
+	// var x string
+	// fmt.Scanln(&x)
+
+	webserver.MiWebServer()
 }
